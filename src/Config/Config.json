@@ -1,0 +1,13 @@
+{
+	"db": {
+		"host": "localhost",
+		"user": "calendario_notas",
+		"pass": "o2?6f7Me8",
+		"name": "calendario_notas"
+	},
+	"base_url": "https://api-calendario-notas.osumi.es/",
+	"default_title": "Calendario Notas",
+	"extra": {
+		"secret": "d82a8476fbc70d0c070ab930f7d05756"
+	}
+}
