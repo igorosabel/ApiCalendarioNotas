@@ -17,7 +17,7 @@ class LoginFilter {
 	public static function handle(array $params, array $headers): array {
 		global $core;
 
-		$ret = ['status' => 'error', 'id '= >null];
+		$ret = ['status' => 'error', 'id '=> null];
 
 		$tk = new OToken($core->config->getExtra('secret'));
 		if ($tk->checkToken($headers['Authorization'])) {

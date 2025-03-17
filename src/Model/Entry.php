@@ -48,14 +48,14 @@ class Entry extends OModel {
 	#[OField(
 		comment: 'Título de la entrada',
 		max: 50,
-		nullable: true,
-		default: true
+		nullable: false
 	)]
 	public ?string $title;
 
 	#[OField(
 		comment: 'Contenido de la entrada',
-		nullable: false,
+		nullable: true,
+		default: null,
 	  type: OField::LONGTEXT
 	)]
 	public ?string $content;
